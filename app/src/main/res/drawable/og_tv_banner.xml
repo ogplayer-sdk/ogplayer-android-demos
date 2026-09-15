@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android TV launcher banner (320×180 dp): the brand mark on ink. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <path android:fillColor="#0E0E10" android:pathData="M0,0h320v180h-320z"/>
+    <path
+        android:pathData="M112,46H190V126L151,165H73V85Z"
+        android:strokeColor="#B8FFFFFF"
+        android:strokeWidth="9"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"/>
+    <path android:fillColor="#F6C445" android:pathData="M120,74L166,105L120,136Z"/>
+    <path android:fillColor="#F6C445" android:pathData="M208,84h12v12h-12z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M226,84h14v12h-14zM226,102h48v6h-48z"/>
+</vector>
