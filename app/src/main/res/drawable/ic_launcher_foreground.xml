@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- OGPlayer identity mark (matches the in-app BrandMark): chamfered
+         aperture frame in white 72%, only the play triangle in accent yellow.
+         Sized small on purpose — 36/108 units, roughly half of the adaptive
+         icon's 66-unit safe zone, so the launcher shows a small mark centered
+         on the black ground. -->
+    <path
+        android:pathData="M49.5,39.38 L68.63,39.38 L68.63,58.5 L58.5,68.63 L39.38,68.63 L39.38,49.5 Z"
+        android:strokeColor="#B8FFFFFF"
+        android:strokeWidth="3.26"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M50.63,47.25 L61.31,54 L50.63,64.13 Z"
+        android:fillColor="#F6C445" />
+</vector>

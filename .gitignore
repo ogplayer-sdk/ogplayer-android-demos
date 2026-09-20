@@ -1,0 +1,12 @@
+.gradle/
+build/
+local.properties
+.idea/
+.DS_Store
+*.iml
+
+# FreeWheel's licensed AdManager SDK — customer-supplied, never committed
+app/libs/
+
+# Kotlin 2.x compiler session cache
+.kotlin/
