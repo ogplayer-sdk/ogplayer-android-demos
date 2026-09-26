@@ -93,7 +93,7 @@ private val tvDemos = listOf(
     TvDemo("vod", "VOD playback", "Adaptive HLS — D-pad chrome, OK, Back, key-driven scrub with storyboard preview."),
     TvDemo("live", "Live & DVR", "Live edge chip, DVR window scrubbing, live gating of the chrome."),
     TvDemo("drm", "Multi-DRM", "DASH + Widevine with a rotating-token provider."),
-    TvDemo("uhd", "4K / UHD", "Big Buck Bunny (clear DASH, 180p → 2160p ladder) — the quality menu must offer 2160p on a 4K panel."),
+    TvDemo("uhd", "4K / UHD", "Big Buck Bunny, 180p → 2160p — the quality menu must offer 2160p on a 4K panel."),
     TvDemo("tracks", "Subtitles & audio", "Sideloaded WebVTT and the manifest's audio tracks, ten-foot menus."),
     TvDemo("playlist", "Playlist & up next", "Three short clips; the Up-next card is focusable — OK skips ahead."),
     TvDemo("ads", "Ads (IMA)", "Pre/mid/post-roll VMAP on the TV chrome; play/pause key drives the ad."),
@@ -182,8 +182,9 @@ private fun TvLauncher(onOpen: (String) -> Unit) {
 
 private const val TOS = "https://media.ogplayer.tv/tos/master.m3u8"
 private const val TOS_STORYBOARD = "https://media.ogplayer.tv/tos/storyboard/storyboard.vtt"
-// DASH-IF Big Buck Bunny 30 fps: an H.264 ladder from 180p up to 2160p (the 4K "no cap" check).
-private const val BBB_UHD = "https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd"
+// Our own Big Buck Bunny ladder (180p → 2160p, H.264, one English audio track): the 4K / UHD
+// scenario only — every other scenario plays Tears of Steel. No storyboard exists for Bunny.
+private const val BBB_UHD = "https://media.ogplayer.tv/bbb/master.m3u8"
 private const val LIVE_URL = "https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8"
 private const val VMAP_PRE_MID_POST =
     "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples" +

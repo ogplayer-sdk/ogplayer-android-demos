@@ -12,8 +12,8 @@ android {
         applicationId = "com.ogplayer.demos"
         minSdk = 26
         targetSdk = 36
-        versionCode = 6
-        versionName = "1.4.0"
+        versionCode = 7
+        versionName = "1.5.0"
     }
 
     compileOptions {
@@ -47,11 +47,11 @@ kotlin {
 dependencies {
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.5")
     // OGPlayer SDK from Maven Central
-    implementation("tv.ogplayer:ogplayer-core:1.4.0")
-    implementation("tv.ogplayer:ogplayer-ui:1.4.0")
-    implementation("tv.ogplayer:ogplayer-ads-ima:1.4.0")
-    implementation("tv.ogplayer:ogplayer-cast:1.4.0")
-    implementation("tv.ogplayer:ogplayer-ads-freewheel:1.4.0")
+    implementation("tv.ogplayer:ogplayer-core:1.5.0")
+    implementation("tv.ogplayer:ogplayer-ui:1.5.0")
+    implementation("tv.ogplayer:ogplayer-ads-ima:1.5.0")
+    implementation("tv.ogplayer:ogplayer-cast:1.5.0")
+    implementation("tv.ogplayer:ogplayer-ads-freewheel:1.5.0")
     // implementation(files("libs/FWAdManager.aar")) // your licensed FreeWheel SDK
 
     implementation(platform("androidx.compose:compose-bom:2025.02.00"))
