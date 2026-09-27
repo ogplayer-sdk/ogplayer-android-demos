@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12+ system splash: gray background (matching the launcher
+         icon) + the smaller OGPlayer mark. -->
+    <style name="Theme.OGDemos" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowSplashScreenBackground">@color/og_brand_gray</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+    </style>
+</resources>

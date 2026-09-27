@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- OGPlayer identity mark, scaled to ~60% of the icon canvas (extra
+         padding) so the Android-12+ splash renders it smaller than the
+         launcher icon's foreground. -->
+    <path
+        android:pathData="M49.5,39.4 L68.6,39.4 L68.6,58.5 L58.5,68.6 L39.4,68.6 L39.4,49.5 Z"
+        android:strokeColor="#B8FFFFFF"
+        android:strokeWidth="2.9"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M50.6,47.3 L61.3,54 L50.6,60.8 Z"
+        android:fillColor="#F6C445" />
+</vector>
